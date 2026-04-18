@@ -1,0 +1,93 @@
+{
+  "scada": [
+    {
+      "id": 1,
+      "systemName": "Abrams M2A2",
+      "connectedDevices": 8,
+      "dataPointsCount": 200,
+      "samplingRate": 45,
+      "alarmLevel": "warning",
+      "communicationStatus": "online",
+      "lastUpdate": "2026-04-18T06:37:17.761Z",
+      "storageUsed": 60
+    },
+    {
+      "id": 2,
+      "systemName": "Leopard",
+      "connectedDevices": 42,
+      "dataPointsCount": 0,
+      "samplingRate": 15,
+      "alarmLevel": "critical",
+      "communicationStatus": "offline",
+      "lastUpdate": "2026-04-18T06:11:52.865Z",
+      "storageUsed": 0
+    },
+    {
+      "id": 3,
+      "systemName": "Leopard",
+      "connectedDevices": 42,
+      "dataPointsCount": 0,
+      "samplingRate": 15,
+      "alarmLevel": "critical",
+      "communicationStatus": "offline",
+      "lastUpdate": "2026-04-18T06:26:18.809Z",
+      "storageUsed": 0
+    },
+    {
+      "id": 4,
+      "systemName": "Leopard",
+      "connectedDevices": 42,
+      "dataPointsCount": 0,
+      "samplingRate": 15,
+      "alarmLevel": "critical",
+      "communicationStatus": "offline",
+      "lastUpdate": "2026-04-18T06:26:47.009Z",
+      "storageUsed": 0
+    },
+    {
+      "id": 5,
+      "systemName": "K1 Pather",
+      "connectedDevices": 10,
+      "dataPointsCount": 250,
+      "samplingRate": 30,
+      "alarmLevel": "normal",
+      "communicationStatus": "connected",
+      "lastUpdate": "2026-04-18T06:36:17.276Z",
+      "storageUsed": 15.5
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "name": "RLS-1",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "name": "RLS-2",
+      "status": "offline"
+    }
+  ],
+  "datapoints": [
+    {
+      "id": 1,
+      "deviceId": 1,
+      "name": "Temperature",
+      "value": 45.5
+    },
+    {
+      "id": 2,
+      "deviceId": 1,
+      "name": "Pressure",
+      "value": 1.2
+    }
+  ],
+  "alarms": [
+    {
+      "id": 1,
+      "level": "warning",
+      "message": "Low memory on RLS-1",
+      "active": true
+    }
+  ]
+}
