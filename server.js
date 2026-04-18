@@ -35,7 +35,7 @@ function writeData(data){
         fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
         return true;
     } catch (e) {
-        console.error('Data write error:', error);
+        console.error('Data write error:', e);
         return false;
     }
 }
